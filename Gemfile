@@ -23,6 +23,7 @@ gem "jbuilder"
 
 gem "importmap-rails"
 
+gem "haml-rails"
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
@@ -31,7 +32,7 @@ gem "importmap-rails"
 # gem "bcrypt", "~> 3.1.7"
 
 gem 'faker'
-
+gem "hamlit"
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 
@@ -56,6 +57,7 @@ group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
   gem "pry-byebug"
+  gem "erb2haml"
 end
 
 group :test do
