@@ -2,7 +2,7 @@
   .card
     - if article.eyecatch.attached?
       .card_image
-        = image_tag article.eyecatch 
+        = image_tag url_for(article.eyecatch)
     .card_content
       .card_title
         = article.title
