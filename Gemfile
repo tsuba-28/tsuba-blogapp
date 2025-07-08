@@ -6,8 +6,7 @@ gem 'rails', '~> 7.2.2', '>= 7.2.2.1'
 gem 'sassc-rails'
 
 gem 'sprockets-rails'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3', '>= 1.4'
+gem 'pg', '>= 0.18', '< 2.0'
 # Use the Puma web server [https://github.com/puma/puma]
 gem 'puma', '>= 5.0'
 # Bundle and transpile JavaScript [https://github.com/rails/jsbundling-rails]
@@ -37,6 +36,8 @@ gem 'binding_of_caller'
 gem 'devise'
 gem 'faker'
 gem 'hamlit'
+gem 'aws-sdk-s3', require: false
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: %i[ windows jruby ]
 
@@ -55,6 +56,7 @@ group :development, :test do
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem 'rubocop-rails-omakase', require: false
+  gem 'dotenv-rails'
 end
 
 group :development do
