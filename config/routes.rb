@@ -9,6 +9,8 @@ Rails.application.routes.draw do
     resource :like, only: [:create, :destroy]
   end
 
+  resources :accounts, only: [:show]
+
   resource :profile, only: [:show, :edit, :update]
   resources :favorites, only: [:index]
   # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.
