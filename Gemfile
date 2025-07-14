@@ -32,6 +32,7 @@ gem 'haml-rails'
 # gem "bcrypt", "~> 3.1.7"
 
 gem 'annotate'
+gem 'active_decorator'
 gem 'better_errors'
 gem 'binding_of_caller'
 gem 'devise'
