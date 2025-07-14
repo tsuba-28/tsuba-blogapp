@@ -45,6 +45,8 @@ GEM
       erubi (~> 1.11)
       rails-dom-testing (~> 2.2)
       rails-html-sanitizer (~> 1.6)
+    active_decorator (1.4.1)
+      activesupport
     activejob (7.2.2.1)
       activesupport (= 7.2.2.1)
       globalid (>= 0.3.6)
@@ -423,6 +425,7 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  active_decorator
   annotate
   aws-sdk-s3
   better_errors
