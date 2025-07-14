@@ -20,7 +20,7 @@ gem 'jbuilder'
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 gem 'webpacker'
-gem 'psych', '~> 3.1'
+gem 'psych', '~> 5.2'
 gem 'importmap-rails'
 
 gem 'haml-rails'
