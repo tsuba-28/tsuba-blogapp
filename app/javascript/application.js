@@ -4,3 +4,7 @@ import "@hotwired/turbo-rails"
 
 import "trix"
 import "@rails/actiontext"
+
+document.addEventListener('DOMContentLoaded', () => {
+  window.alert('DOM LOADED')
+})
