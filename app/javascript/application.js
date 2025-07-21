@@ -7,10 +7,13 @@ import "@rails/actiontext"
 
 import jquery from 'jquery'
 window.$ = jquery
-
+import axios from 'axios'
 
 document.addEventListener('DOMContentLoaded', () => {
   $('.article_title').on('click', () => {
-    window.alert('CLICKED')
+    axios.get('/')
+      .then((response) => {
+        console.log(response)
+      })
   })
 })
