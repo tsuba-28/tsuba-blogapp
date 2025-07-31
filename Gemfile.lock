@@ -458,7 +458,7 @@ DEPENDENCIES
   turbo-rails
   tzinfo-data
   web-console
-  webpacker
+  webpacker (~> 5.0)
 
 BUNDLED WITH
    2.6.6
