@@ -19,7 +19,7 @@ gem 'stimulus-rails'
 gem 'jbuilder'
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
-gem 'webpacker'
+gem 'webpacker', '~> 5.0'
 gem 'psych', '~> 3.1'
 gem 'importmap-rails'
 
@@ -33,6 +33,7 @@ gem 'haml-rails'
 
 gem 'annotate'
 gem 'active_decorator'
+gem 'active_model_serializers'
 gem 'better_errors'
 gem 'binding_of_caller'
 gem 'devise'
