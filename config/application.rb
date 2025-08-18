@@ -13,7 +13,7 @@ module Blogapp
     config.load_defaults 7.2
 
     if ['development', 'test'].include? ENV['RAILS_ENV']
-      Dotenv::Railtie.load
+      Dotenv::Rails.load
     end
 
     # Please, add to the `ignore` list any other `lib` subdirectories that do
