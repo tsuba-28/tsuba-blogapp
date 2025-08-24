@@ -23,7 +23,7 @@ const handleCommentForm = () => {
 
 const appendNewComment = (comment) => {
   $('.comments-container').append(
-  `<div class="article-comment"><p>${comment.content}</p></div>`
+  `<div class="article-comment"><p>${comment.content}</p></div>`     //XSS対策として「${escape(comment.content)}にすると対策できる
   )
 }
 
